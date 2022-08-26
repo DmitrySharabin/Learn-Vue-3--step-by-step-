@@ -10,7 +10,7 @@ export default {
 				:assignments="filters.inProgress"
 				title="In Progress"
 			>
-				<assignment-create @add="add"></assignment-create>
+				<assignment-create @add="add" class="mt-4"></assignment-create>
 			</assignment-list>
 
 			<assignment-list
